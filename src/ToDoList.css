@@ -1,0 +1,26 @@
+main {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    width: 85%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 32px 16px rgba(90, 95, 101, 0.3);
+  }
+  
+  button {
+    border: none;
+    padding: 15px;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  button:disabled:hover{
+    cursor: default;
+  }
+
+  .tips {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+  }

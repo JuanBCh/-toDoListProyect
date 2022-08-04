@@ -1,0 +1,22 @@
+.home-div{
+    background-color: white;
+    width: 40%;
+    /* FLEX */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-div h1{
+    margin: 2em;
+}
+
+.home-div input{
+    border: 1px solid rgb(185, 185, 185);
+    width: 55%;
+    height: 4em;
+    margin: 2.5px;
+}
+.home-div button {
+    margin: 3em;
+}
