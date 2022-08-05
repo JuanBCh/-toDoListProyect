@@ -1,0 +1,34 @@
+.ej-1{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px black;
+    height: 25vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.ej-1 input{
+    height: 100%;
+    width: 75%;
+    border-radius: 5px 0 0 5px;
+}
+.ej-1 button{
+    height: 100%;
+    width: 25%;
+    border-radius: 0 5px 5px 0;
+}
+.ej-1 div{
+    width: 100%;
+    height: 25%;
+}
+.ej-1 textarea{
+    font-size: 2em;
+    width: 100%;
+    height: 25%;
+    border-radius: 5px;
+}
+.ej-1 textarea:disabled{
+    background-color: white;
+}

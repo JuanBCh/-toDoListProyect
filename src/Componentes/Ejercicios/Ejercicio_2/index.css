@@ -1,0 +1,14 @@
+.ej-2{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px black;
+    padding: 25px;
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ej-2 div{
+    width: 50%;
+    height: 50%;
+}

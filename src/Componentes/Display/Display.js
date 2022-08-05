@@ -19,7 +19,7 @@ function Display(props) {
   };
   const reset = () => setData({task: "", priority: ""});
 
-  let invalid = data.task === "" || data.priority == "";
+  let invalid = data.task === "" || data.priority === "";
 
   return (
     <form>

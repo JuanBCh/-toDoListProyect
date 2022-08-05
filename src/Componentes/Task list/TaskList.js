@@ -1,10 +1,7 @@
-import {useState} from "react";
 import Button from "../Button";
 import "./TaskList.css";
 
 function TaskList({tasks, setTasks}) {
-  const [edit, setEdit] = useState();
-
   const removeUser = (i) => {
     setTasks((previousState) => {
       const newList = [...previousState];

@@ -16,13 +16,17 @@ function Home() {
       <h1>To Do List</h1>
       <Input placeholder="Name" value={name} onInput={manageName} type="text" />
       <Input placeholder="Password" type="password" />
-      <Button
-        text="LogIn"
-        disabled={name !== "" ? false : true}
-        onClick={() => navigate("/todolist")}
-      />
+      <div>
+        <Button
+          text="LogIn"
+          disabled={name !== "" ? false : true}
+          onClick={() => navigate("/todolist")}
+        />
+        <Button text="Invitado" onClick={() => navigate("/todolist")} />
+      </div>
       <div>
         <Button text="Ejercicio 1" onClick={() => navigate("/ejerciciouno")} />
+        <Button text="Ejercicio 2" onClick={() => navigate("/ejerciciodos")} />
       </div>
     </div>
   );

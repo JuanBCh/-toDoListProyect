@@ -13,10 +13,10 @@ function InputButton(props) {
   };
 
   return (
-    <>
+    <div>
       <Input type="text" value={input} onInput={manageInputValue} />
       <Button text="Submit" onClick={click} />
-    </>
+    </div>
   );
 }
 export default InputButton;
