@@ -24,9 +24,11 @@ function Home() {
         />
         <Button text="Invitado" onClick={() => navigate("/todolist")} />
       </div>
-      <div>
+      <div style={{marginTop: "2em"}}>
+        <h3 style={{textAlign: "center"}}>Ejercicios</h3>
         <Button text="Ejercicio 1" onClick={() => navigate("/ejerciciouno")} />
         <Button text="Ejercicio 2" onClick={() => navigate("/ejerciciodos")} />
+        <Button text="Ejercicio 3" onClick={() => navigate("/ejerciciotres")} />
       </div>
     </div>
   );
