@@ -1,0 +1,44 @@
+.contMain{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px black;
+    padding: 2em 10%;
+    width: 60%;
+}
+.contMain input{
+    height: 3em;
+    width: 100%;
+}
+.divDiv{
+    border-radius: 5px 0 0 5px;
+    background-color: white;
+    width: 100%;
+    /* FLEX */
+    display: flex;
+    align-items: center;
+}
+.divDiv:hover{
+    cursor: pointer;
+}
+.divDiv span{
+    border-radius: 5px 0 0 5px;
+    height: 100%;
+    width: 4em;
+    background-color: rgb(119, 119, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divDiv p{
+    padding: 0 0.5em 0 1em;
+}
+.contDiv{
+    margin: 2px 0;
+    display: flex;
+    flex-direction: row;
+}
+.restBtn{
+    border-radius: 0 5px 5px 0;
+    width: 15%;
+    background-color: rgb(255, 91, 91);
+}

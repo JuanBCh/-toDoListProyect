@@ -12,9 +12,12 @@ function Counter({text}) {
   };
 
   return (
-    <div>
-      <Button text={`${text} +${num}`} onClick={addNum} className="" />
-      <Button text="-" onClick={restNum} className="" />
+    <div className="contDiv">
+      <div className="divDiv" onClick={addNum}>
+        <span>{num}</span>
+        <p>{text}</p>
+      </div>
+      <Button text="-" onClick={restNum} className="restBtn" />
     </div>
   );
 }
