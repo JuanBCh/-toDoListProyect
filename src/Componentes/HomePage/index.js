@@ -39,6 +39,10 @@ function Home() {
           text="Ejercicio 4"
           onClick={() => navigate("/ejerciciocuatro")}
         />
+        <Button
+          text="Ejercicio 5"
+          onClick={() => navigate("/ejerciciocinco")}
+        />
       </div>
     </div>
   );
